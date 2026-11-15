@@ -145,6 +145,28 @@ function motsEstimes(texte, duree) {
   });
 }
 
+// Prononciation (config.json -> prononciation) : un sigle mal lu par la voix (ex. FBI dit à l'anglaise)
+// est envoyé à ElevenLabs écrit comme il se dit en français ; les sous-titres gardent le texte d'origine.
+const prononciation = Object.entries(config.prononciation || {})
+  .filter(([mot]) => !mot.startsWith("_"))
+  .map(([mot, dit]) => ({ mot, dit: String(dit).trim().replace(/\s+/g, "-") }));
+const motEntier = (m) => new RegExp(`(?<![\\p{L}\\p{N}])${m.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\p{L}\\p{N}])`, "gu");
+/** Texte envoyé à la voix : chaque mot du dictionnaire remplacé par sa prononciation. */
+function textePrononce(texte) {
+  let t = texte;
+  for (const { mot, dit } of prononciation) t = t.replace(motEntier(mot), dit);
+  return t;
+}
+/** Remet les mots d'origine dans les sous-titres (la prononciation ne s'affiche jamais à l'écran). */
+function motsAffiches(mots) {
+  if (!prononciation.length) return mots;
+  return mots.map((w) => {
+    let m = w.m;
+    for (const { mot, dit } of prononciation) m = m.replace(motEntier(dit), mot);
+    return { ...w, m };
+  });
+}
+
 let modeleRetenu = null;
 
 async function genererPhrase(voiceId, texte) {
@@ -216,6 +238,7 @@ async function main() {
     let audio = null;
     let mots = [];
     if (l.texte) {
+      const dit = textePrononce(l.texte);
       if (sansVoix) {
         const n = l.texte.split(" ").length;
         duree = n / config.mots_par_seconde_sans_voix + 0.2;
@@ -223,7 +246,7 @@ async function main() {
       } else {
         const empreinte = crypto
           .createHash("sha1")
-          .update([l.texte, voiceId, config.modeles.join(","), JSON.stringify(config.reglages_voix), config.langue].join("|"))
+          .update([dit, voiceId, config.modeles.join(","), JSON.stringify(config.reglages_voix), config.langue].join("|"))
           .digest("hex")
           .slice(0, 16);
         const fMp3 = path.join(RACINE, "public/voix", `${empreinte}.mp3`);
@@ -233,12 +256,14 @@ async function main() {
           console.log(`♻️  ${l.id} déjà généré`);
         } else {
           console.log(`🗣️  ${l.id} : ${l.texte.slice(0, 60)}…`);
-          const res = await genererPhrase(voiceId, l.texte);
+          if (dit !== l.texte) console.log(`   prononciation : ${dit.slice(0, 60)}…`);
+          const res = await genererPhrase(voiceId, dit);
+          res.mots = motsAffiches(res.mots);
           fs.writeFileSync(fMp3, res.audio);
           fs.writeFileSync(fJson, JSON.stringify({ duree: res.duree, mots: res.mots }));
           duree = res.duree;
           mots = res.mots;
-          caracteres += l.texte.length;
+          caracteres += dit.length;
         }
         audio = `voix/${empreinte}.mp3`;
       }
