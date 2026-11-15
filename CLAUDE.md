@@ -26,7 +26,7 @@ Ce dépôt est **séparé** de Flash Monde et de Kalia et Kouli : ne jamais touc
 
 ## Format d'un épisode (`episodes/<id>.json`)
 - Une ligne = une phrase lue + une séquence animée (`src/sequences/index.tsx`, liste dans `README.md`).
-- Prononciation : un sigle mal lu par la voix (FBI, CIA…) s'ajoute dans `config.json` → `prononciation` (mot écrit → comment le dire, sans espace, avec des tirets, ex. "FBI": "effe-bé-i"). La voix reçoit la prononciation, les sous-titres gardent le mot écrit ; seules les phrases concernées sont refaites (et payées).
+- Prononciation : un sigle mal lu par la voix s'ajoute dans `config.json` → `prononciation` (mot écrit → comment le dire, sans espace, avec des tirets). L'utilisateur veut les sigles américains dits à l'américaine : "FBI": "èf-bi-aï" (et non « effe-bé-i »). La voix reçoit la prononciation, les sous-titres gardent le mot écrit ; seules les phrases concernées sont refaites (et payées).
 - Ouverture : séquence `accroche` (image + gros titre jaune dès la 1re image, phrase 1 très courte). Pas de générique au début.
 - Fin : question à deux choix (« réponds 1 ou 2 ») + abonnement.
 - Durée : 2 min 30 à 3 min. Zone sûre TikTok : rien d'important sous ~1200 px (sous-titres à 1250 px).
