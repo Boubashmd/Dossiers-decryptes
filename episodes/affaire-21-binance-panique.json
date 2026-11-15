@@ -1,0 +1,373 @@
+{
+ "id": "affaire-21-binance-panique",
+ "numero": 21,
+ "titre": "Binance : la grande panique",
+ "personnage": "Binance",
+ "style": "Detailed vintage engraving illustration, fine white and silver ink linework with cross-hatching, subtle warm gold highlights, deep midnight-blue background (#0B1626), dramatic soft light, museum catalogue look. Main subject in the upper half of the frame, empty dark lower third. No text, no letters, no logo, no watermark, not a photograph, no recognizable faces. Vertical 9:16.",
+ "reference": "illustrations/commun/reference.jpg",
+ "photo": {
+  "fichier": "illustrations/affaire-21-binance-panique/accroche.jpg",
+  "legende": "Illustration",
+  "credit": "Illustrations générées par IA (Gemini), d'après des faits établis et sourcés.",
+  "visage": {
+   "x": 384,
+   "y": 480
+  }
+ },
+ "publication": {
+  "accroche": "Binance piratée : 6,3 milliards volés… puis 4,65 milliards retirés en dix heures par des clients paniqués. Qui a payé ? Où est passé le butin ? La suite de l'affaire (FBI, Corée du Nord). 📂 Dossier sourcé",
+  "sources": "FBI, communiqué du 31 octobre 2026 (via The Record, Journal du Geek, Sahara Reporters) ; Binance et Changpeng Zhao (via Cryptoast et Journal du Geek, 1er-2 novembre 2026) ; DefiLlama (via Cryptoast) ; Elliptic, Chainalysis et Cynthia Kaiser (via The Record, 2 novembre 2026) ; Cryptoactu (12 novembre 2026) ; Safecode (d'après The Register, Al Jazeera, PBS) ; Reuters via OODA Loop (Bitget, septembre 2026).",
+  "hashtags_episode": [
+   "#binance",
+   "#crypto"
+  ],
+  "commentaire_epingle": "📂 Ton avis : 1 = je laisse mes cryptos sur une plateforme, 2 = je les garde moi-même 👇 Le casse (épisode 8) et l'enquête (épisode 14) sont sur le profil."
+ },
+ "couverture": {
+  "titre": "BINANCE : 4,65 MILLIARDS RETIRÉS EN 10 HEURES",
+  "sous": "La grande panique",
+  "couleur": true
+ },
+ "lignes": [
+  {
+   "id": "01",
+   "texte": "Quatre milliards et demi de dollars, retirés en dix heures.",
+   "sequence": {
+    "type": "accroche",
+    "photo": "illustrations/affaire-21-binance-panique/accroche.jpg",
+    "couleur": true,
+    "titre": "BINANCE : LA GRANDE PANIQUE",
+    "sous": "Dossier nº 21 · Partie 3",
+    "taille": 80,
+    "prompt": "A huge crowd of human silhouettes rushing toward a gigantic glowing circular vault door of a futuristic bank at night, streams of golden coins and glowing digital tokens pouring out of the vault, dramatic light, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "02",
+   "texte": "Fin octobre, des pirates volent plus de six milliards de dollars à Binance, la plus grande plateforme de cryptos au monde.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "LE BUTIN",
+    "valeur": 6.3,
+    "decimales": 1,
+    "unite": "milliards de dollars",
+    "couleur": "rouge",
+    "legende": "Le plus gros vol de cryptos de l'histoire",
+    "fin": 0.55
+   }
+  },
+  {
+   "id": "03",
+   "texte": "Pour le FBI, ce sont des pirates nord-coréens, d'une unité baptisée TraderTraitor.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "CORÉE DU NORD",
+    "taille": 104,
+    "sous": "Selon le FBI, 31 octobre 2026"
+   }
+  },
+  {
+   "id": "04",
+   "texte": "Binance ferme alors ses guichets. Plus personne ne peut retirer son argent.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-21-binance-panique/guichets.jpg",
+    "titre": "GUICHETS FERMÉS",
+    "legende": "Retraits suspendus",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A gigantic futuristic vault door sealed shut with heavy chains and a big padlock, a frozen hourglass glowing in front of it, empty marble hall, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "05",
+   "texte": "Pendant près de trois jours, des millions de clients attendent, sans savoir si leur argent existe encore.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-21-binance-panique/attente.jpg",
+    "titre": "L'ATTENTE",
+    "legende": "Près de trois jours",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "Many small human silhouettes in the dark, each lit from below by the glow of a smartphone screen, anxious waiting crowd seen from above, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "06",
+   "texte": "Samedi, son patron, Richard Teng, l'assure : quatre-vingt-dix pour cent des cryptos volées sont déjà remplacées.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "DÉJÀ REMPLACÉ",
+    "valeur": 90,
+    "unite": "%",
+    "legende": "Selon Binance, samedi 31 octobre",
+    "fin": 0.55
+   }
+  },
+  {
+   "id": "07",
+   "texte": "Avec quoi ? Ses propres réserves : un fonds d'urgence prévu pour les piratages, sa trésorerie, et un fonds d'assurance.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-21-binance-panique/reserves.jpg",
+    "titre": "LES RÉSERVES",
+    "legende": "Fonds d'urgence, trésorerie, assurance",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "An enormous treasure vault where mechanical arms move piles of gold coins and glowing crypto tokens to refill empty shelves, warm golden light, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "08",
+   "texte": "Dimanche 1er novembre, à sept heures du matin, heure de Paris, les retraits rouvrent.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-21-binance-panique/reouverture.jpg",
+    "titre": "DIMANCHE, 7 H",
+    "legende": "Les retraits rouvrent",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A massive round vault door slowly opening at dawn, bright light pouring out, a long queue of human silhouettes waiting in front of it, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "09",
+   "texte": "Et là… c'est la ruée.",
+   "sequence": {
+    "type": "choc",
+    "photo": "illustrations/affaire-21-binance-panique/accroche.jpg",
+    "texte": "LA RUÉE"
+   }
+  },
+  {
+   "id": "10",
+   "texte": "En une dizaine d'heures, les clients retirent quatre milliards six cent cinquante millions de dollars.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "RETIRÉS",
+    "valeur": 4.65,
+    "decimales": 2,
+    "unite": "milliards de dollars",
+    "couleur": "rouge",
+    "legende": "En une dizaine d'heures, le 1er novembre",
+    "fin": 0.6
+   }
+  },
+  {
+   "id": "11",
+   "texte": "En face, à peine un milliard est déposé. Il manque plus de trois milliards et demi.",
+   "sequence": {
+    "type": "barres",
+    "titre": "LE 1ER NOVEMBRE",
+    "unite": "M$",
+    "max": 4650,
+    "barres": [
+     {
+      "label": "Retraits",
+      "valeur": 4650,
+      "couleur": "rouge"
+     },
+     {
+      "label": "Dépôts",
+      "valeur": 1010,
+      "couleur": "jaune"
+     }
+    ],
+    "ecart": {
+     "de": 0,
+     "a": 1,
+     "texte": "− 3 640 M$"
+    },
+    "legende": "Estimation du 1er novembre, en une dizaine d'heures"
+   }
+  },
+  {
+   "id": "12",
+   "texte": "Pourtant, pour Binance, ce n'est qu'environ deux pour cent de l'argent que ses clients lui confient.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "SEULEMENT",
+    "valeur": 2.1,
+    "decimales": 1,
+    "unite": "%",
+    "legende": "des 171 milliards de dollars confiés, selon Binance",
+    "fin": 0.55
+   }
+  },
+  {
+   "id": "13",
+   "texte": "Son fondateur, Changpeng Zhao, résume : quatre-vingt-dix-huit pour cent des clients sont restés.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "98 % RESTÉS",
+    "taille": 110,
+    "sous": "Selon Changpeng Zhao (CZ), sur X"
+   }
+  },
+  {
+   "id": "14",
+   "texte": "Le 12 novembre, Binance annonce avoir remplacé la totalité des cryptos volées. Ses clients ne perdent rien.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-21-binance-panique/rembourse.jpg",
+    "titre": "100 % REMPLACÉ",
+    "legende": "Annonce de Binance, 12 novembre",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A huge vault filled to the brim with glowing tokens and gold coins, a perfectly balanced antique balance scale in front of it, triumphant light, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "15",
+   "texte": "Mais les pirates, eux, ont gardé leur butin.",
+   "sequence": {
+    "type": "choc",
+    "photo": "illustrations/commun/hacker.jpg",
+    "texte": "ET LE BUTIN ?"
+   }
+  },
+  {
+   "id": "16",
+   "texte": "Selon les spécialistes, près de trois milliards ont été gelés à temps, parfois en quelques minutes.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "GELÉS",
+    "valeur": 3,
+    "unite": "milliards de dollars",
+    "legende": "Selon les spécialistes de la blockchain",
+    "fin": 0.5
+   }
+  },
+  {
+   "id": "17",
+   "texte": "Le reste est éparpillé à toute vitesse, converti surtout en Ethereum, à travers des milliers de portefeuilles.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-21-binance-panique/eparpille.jpg",
+    "titre": "ÉPARPILLÉ",
+    "legende": "Converti surtout en Ethereum",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "Thousands of small glowing coins scattering like sparks across a dark night sky over a maze of floating digital wallets connected by thin lines, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "18",
+   "texte": "Selon la société Elliptic, un nouveau portefeuille apparaît toutes les vingt-cinq secondes, créé par des programmes automatiques.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-21-binance-panique/automates.jpg",
+    "titre": "EN PILOTE AUTOMATIQUE",
+    "legende": "Un portefeuille toutes les 25 secondes, selon Elliptic",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A swarm of small mechanical spider robots weaving glowing threads between floating digital wallets, intricate network, dark background, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "19",
+   "texte": "Pour une ancienne responsable du FBI, la moitié de l'argent a tellement circulé… qu'il sera très difficile à récupérer.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "TRÈS DIFFICILE À RÉCUPÉRER",
+    "taille": 84,
+    "sous": "Selon Cynthia Kaiser, ancienne responsable du FBI"
+   }
+  },
+  {
+   "id": "20",
+   "texte": "Et selon la société Chainalysis, la Corée du Nord serait derrière près de quatre-vingt-dix pour cent des cryptos piratées en 2026.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "PIRATAGES DE 2026",
+    "valeur": 90,
+    "unite": "%",
+    "couleur": "rouge",
+    "legende": "Part attribuée à la Corée du Nord, selon Chainalysis",
+    "fin": 0.55
+   }
+  },
+  {
+   "id": "21",
+   "texte": "Binance n'est d'ailleurs pas seule : un mois plus tôt, la plateforme Bitget s'était fait voler plus de trois cent cinquante millions de dollars.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-21-binance-panique/bitget.jpg",
+    "titre": "UN MOIS PLUS TÔT",
+    "legende": "Bitget : plus de 350 millions volés",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A smaller vault with its door torn open, scattered tokens on the floor, storm clouds and lightning outside a window, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "22",
+   "texte": "La leçon ? Laisser ses cryptos sur une plateforme, c'est lui faire confiance, comme à une banque… mais sans la garantie d'une banque.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-21-binance-panique/lecon.jpg",
+    "titre": "LA LEÇON",
+    "legende": "Une plateforme n'est pas une banque",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A single antique key on a chain held in an open hand, in front of a giant distant vault door, symbolic, dramatic light, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "23",
+   "texte": "Cette fois, Binance avait les réserves pour rembourser. Toutes les plateformes ne les ont pas.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "CETTE FOIS",
+    "taille": 110,
+    "sous": "Binance avait les réserves"
+   }
+  },
+  {
+   "id": "24",
+   "texte": "L'enquête continue.",
+   "sequence": {
+    "type": "fin",
+    "etiquette": [
+     "DOSSIER Nº 21",
+     "BINANCE"
+    ],
+    "texte": "ENQUÊTE EN COURS"
+   }
+  },
+  {
+   "id": "25",
+   "texte": "Et toi ? Réponds 1 : tu laisses tes cryptos sur une plateforme. Ou 2 : tu les gardes toi-même. Et abonne-toi.",
+   "sequence": {
+    "type": "cta",
+    "bulle": "1 ou 2 ? 👇"
+   }
+  }
+ ]
+}
