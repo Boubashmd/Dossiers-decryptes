@@ -15,10 +15,7 @@
   },
   "prononciation": {
     "_aide": "Mots mal lus par la voix : à gauche le mot écrit (sous-titres), à droite comment le dire, sans espace (tirets).",
-    "FBI": "effe-bé-i",
-    "CIA": "cé-i-a",
-    "NSA": "ène-esse-a",
-    "EFCC": "e-effe-cé-cé"
+    "FBI": "èf-bi-aï"
   },
   "pause_entre_phrases": 0.35,
   "mots_par_seconde_sans_voix": 2.6,
