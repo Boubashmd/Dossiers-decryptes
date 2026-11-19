@@ -1,0 +1,400 @@
+{
+ "id": "affaire-22-nvidia",
+ "numero": 22,
+ "titre": "Nvidia : le patron et l'espionne présumée",
+ "personnage": "Jensen Huang",
+ "style": "Detailed vintage engraving illustration, fine white and silver ink linework with cross-hatching, subtle warm gold highlights, deep midnight-blue background (#0B1626), dramatic soft light, museum catalogue look. Main subject in the upper half of the frame, empty dark lower third. No text, no letters, no logo, no watermark, not a photograph, no recognizable faces. Vertical 9:16.",
+ "reference": "illustrations/commun/reference.jpg",
+ "photo": {
+  "fichier": "illustrations/affaire-22-nvidia/accroche.jpg",
+  "legende": "Illustration",
+  "credit": "Illustrations générées par IA (Gemini), d'après des faits établis et sourcés.",
+  "visage": {
+   "x": 384,
+   "y": 480
+  }
+ },
+ "publication": {
+  "accroche": "Jensen Huang, le patron de Nvidia, le géant des puces de l'IA, a démissionné le 12 novembre. Une liaison avec une femme soupçonnée d'espionnage pour la Chine (selon des responsables américains), une enquête interne, le FBI… Ce qu'on sait vraiment. 📂 Dossier sourcé",
+  "sources": "Nvidia (communiqués des 8 et 12 novembre 2026) ; New York Times (via TechCrunch, Presse-citron, Fortune) ; The Information (via Fortune et TechCrunch) ; CNBC (16 novembre 2026) ; Al Jazeera et ABC News (18 novembre 2026) ; Mixed (12 novembre 2026).",
+  "hashtags_episode": [
+   "#nvidia",
+   "#jensenhuang"
+  ],
+  "commentaire_epingle": "📂 Ton avis : 1 = il devait démissionner, 2 = c'est sa vie privée 👇 Rien n'est jugé : tout ce qui n'est pas prouvé est attribué à sa source."
+ },
+ "couverture": {
+  "titre": "NVIDIA : LE PATRON ET L'ESPIONNE PRÉSUMÉE",
+  "sous": "Ce qu'on sait vraiment",
+  "couleur": true
+ },
+ "lignes": [
+  {
+   "id": "01",
+   "texte": "Il a tout perdu en deux semaines.",
+   "sequence": {
+    "type": "accroche",
+    "photo": "illustrations/affaire-22-nvidia/accroche.jpg",
+    "couleur": true,
+    "titre": "NVIDIA : LE PATRON ET L'ESPIONNE PRÉSUMÉE",
+    "sous": "Dossier nº 22",
+    "taille": 72,
+    "prompt": "A man seen from behind wearing a black leather jacket, standing alone on a gigantic dark keynote stage, facing a huge glowing computer chip displayed on a giant screen, empty auditorium, dramatic spotlight, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "02",
+   "texte": "Lui, c'est Jensen Huang. Il a fondé Nvidia en 1993, et l'a dirigée pendant plus de trente ans.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "JENSEN HUANG",
+    "taille": 110,
+    "sous": "Fondateur de Nvidia, en 1993"
+   }
+  },
+  {
+   "texte": "Toujours en veste de cuir noir, il est devenu le visage de l'intelligence artificielle.",
+   "sequence": {
+    "type": "choc",
+    "photo": "illustrations/affaire-22-nvidia/accroche.jpg",
+    "texte": "LE VISAGE DE L'IA"
+   },
+   "id": "03"
+  },
+  {
+   "id": "04",
+   "texte": "Nvidia fabrique les puces qui font tourner l'intelligence artificielle. C'est l'une des entreprises les plus chères du monde.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-22-nvidia/puces.jpg",
+    "titre": "LES PUCES DE L'IA",
+    "legende": "Nvidia, géant de l'intelligence artificielle",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A glowing computer chip in the center of an endless data center corridor of server racks, golden circuits radiating like veins of light, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "05",
+   "texte": "Mais fin octobre, le New York Times révèle sa relation avec une femme d'affaires rencontrée à Taïwan.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-22-nvidia/diner.jpg",
+    "titre": "LA RENCONTRE",
+    "legende": "Selon le New York Times, 29 octobre",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "Two silhouettes sitting face to face at a candlelit restaurant table at night, big window with the glowing skyline of an Asian city, intimate atmosphere, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "06",
+   "texte": "Selon des responsables américains cités par le journal, elle travaillerait pour les services secrets chinois.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "ESPIONNE ?",
+    "taille": 104,
+    "sous": "Selon des responsables américains, cités par le New York Times"
+   }
+  },
+  {
+   "id": "07",
+   "texte": "Pékin dément. Et à ce jour, aucune preuve publique ne le démontre.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "AUCUNE PREUVE PUBLIQUE",
+    "taille": 86,
+    "sous": "Pékin dément"
+   }
+  },
+  {
+   "id": "08",
+   "texte": "Au printemps, une note secrète du gouvernement américain l'aurait déjà présentée comme une espionne.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-22-nvidia/note.jpg",
+    "titre": "LA NOTE SECRÈTE",
+    "legende": "Printemps 2026, selon le New York Times",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A sealed confidential folder tied with a red ribbon on a dark wooden desk under a single lamp, an official wax seal, shadows of window blinds, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "09",
+   "texte": "Pourquoi c'est sensible ? Parce qu'elle travaillait pour une société de Singapour qui achète des puces Nvidia.",
+   "sequence": {
+    "type": "carte_monde",
+    "titre": "SINGAPOUR",
+    "points": [
+     {
+      "lon": 103.82,
+      "lat": 1.35,
+      "nom": "SINGAPOUR"
+     }
+    ],
+    "legende": "Une société qui achète des puces Nvidia"
+   }
+  },
+  {
+   "texte": "Or les États-Unis interdisent de vendre à la Chine les puces Nvidia les plus puissantes.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": true,
+    "texte": "INTERDIT EN CHINE",
+    "taille": 96,
+    "sous": "Les puces les plus puissantes, selon la loi américaine"
+   },
+   "id": "10"
+  },
+  {
+   "id": "11",
+   "texte": "Selon le site The Information, au moins sept milliards et demi de dollars de puces seraient passés par ses sociétés…",
+   "sequence": {
+    "type": "compteur",
+    "titre": "PUCES ACHETÉES",
+    "valeur": 7.5,
+    "decimales": 1,
+    "unite": "milliards de dollars",
+    "legende": "Selon le site The Information",
+    "fin": 0.55
+   }
+  },
+  {
+   "id": "12",
+   "texte": "…et une partie aurait fini en Chine, malgré l'interdiction américaine.",
+   "sequence": {
+    "type": "carte_monde",
+    "titre": "VERS LA CHINE ?",
+    "points": [
+     {
+      "lon": 103.82,
+      "lat": 1.35,
+      "nom": "SINGAPOUR"
+     },
+     {
+      "lon": 121.47,
+      "lat": 31.23,
+      "nom": "CHINE"
+     }
+    ],
+    "fleches": [
+     {
+      "de": [
+       103.82,
+       1.35
+      ],
+      "vers": [
+       121.47,
+       31.23
+      ],
+      "pointilles": true
+     }
+    ],
+    "legende": "Selon plusieurs médias américains"
+   }
+  },
+  {
+   "id": "13",
+   "texte": "La société dément toute infraction. Et Nvidia dit n'avoir trouvé aucune preuve de détournement.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "ILS DÉMENTENT",
+    "taille": 104,
+    "sous": "La société et Nvidia"
+   }
+  },
+  {
+   "id": "14",
+   "texte": "Le 8 novembre, Jensen Huang écrit à ses employés : il reconnaît avoir trompé sa femme.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-22-nvidia/lettre.jpg",
+    "titre": "LA LETTRE",
+    "legende": "« J'ai été infidèle à ma femme »",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A single handwritten letter on a desk next to a fountain pen at night, the handwriting is illegible scribbles, warm lamp light, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "15",
+   "texte": "Le même jour, le conseil d'administration lance une enquête. Mais il lui garde sa confiance.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-22-nvidia/conseil.jpg",
+    "titre": "L'ENQUÊTE INTERNE",
+    "legende": "Conseil d'administration, 8 novembre",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A long empty boardroom table with leather chairs at night, a panoramic window over a city, a single folder at the head of the table, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "16",
+   "texte": "Le lendemain, Donald Trump affirme que le FBI s'intéresse à l'affaire.",
+   "sequence": {
+    "type": "choc",
+    "photo": "illustrations/commun/ecoute.jpg",
+    "texte": "LE FBI"
+   }
+  },
+  {
+   "id": "17",
+   "texte": "En bourse, c'est la chute : Nvidia perd des centaines de milliards de dollars de valeur.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-22-nvidia/chute.jpg",
+    "titre": "LA CHUTE",
+    "legende": "Des centaines de milliards envolés",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "Giant stock market screens in a dark trading room showing a red curve plunging down, glowing red light reflecting on the floor, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "18",
+   "texte": "Le 11 novembre, le New York Times révèle une deuxième liaison, avec une cadre de Nvidia placée sous ses ordres.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "DEUXIÈME LIAISON",
+    "taille": 96,
+    "sous": "Selon le New York Times, non confirmé par Nvidia"
+   }
+  },
+  {
+   "id": "19",
+   "texte": "Le 12 novembre, Jensen Huang démissionne. Avec effet immédiat.",
+   "sequence": {
+    "type": "choc",
+    "photo": "illustrations/affaire-22-nvidia/accroche.jpg",
+    "texte": "DÉMISSION"
+   }
+  },
+  {
+   "id": "20",
+   "texte": "Sa directrice financière, Colette Kress, prend sa place par intérim.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "PDG PAR INTÉRIM",
+    "taille": 96,
+    "sous": "Colette Kress, directrice financière de Nvidia"
+   }
+  },
+  {
+   "id": "21",
+   "texte": "Le 17 novembre, le président du conseil est clair : Nvidia n'a pas l'intention de le reprendre.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-22-nvidia/chaise.jpg",
+    "titre": "PAS DE RETOUR",
+    "legende": "Harvey Jones, président du conseil, 17 novembre",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "An empty black leather executive chair in a dark office facing a large window at night, a black leather jacket draped over the backrest, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "texte": "Le même jour, Nvidia annonce cent seize milliards de dollars de chiffre d'affaires en un trimestre. Deux fois plus qu'il y a un an.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "SANS LUI",
+    "valeur": 115.8,
+    "decimales": 1,
+    "unite": "milliards de dollars",
+    "legende": "Chiffre d'affaires du trimestre, annoncé le 17 novembre",
+    "fin": 0.55
+   },
+   "id": "22"
+  },
+  {
+   "id": "23",
+   "texte": "Lui doit encore répondre aux questions du Congrès américain, à huis clos.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-22-nvidia/congres.jpg",
+    "titre": "LE CONGRÈS",
+    "legende": "Audition à huis clos",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "The dome of a grand classical government building at night under rain, lit windows, wet stone steps, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "24",
+   "texte": "À ce jour, personne n'a été inculpé, et rien ne prouve que des secrets de Nvidia aient été volés.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "AUCUNE INCULPATION",
+    "taille": 100,
+    "sous": "À ce jour"
+   }
+  },
+  {
+   "id": "25",
+   "texte": "Mais en deux semaines, l'homme qui incarnait l'intelligence artificielle a tout perdu.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-22-nvidia/veste.jpg",
+    "titre": "TOUT PERDU",
+    "legende": "En deux semaines",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A black leather jacket hanging alone on a coat stand in the middle of an empty dark stage, a single spotlight from above, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "26",
+   "texte": "L'enquête continue.",
+   "sequence": {
+    "type": "fin",
+    "etiquette": [
+     "DOSSIER Nº 22",
+     "NVIDIA"
+    ],
+    "texte": "ENQUÊTE EN COURS"
+   }
+  },
+  {
+   "id": "27",
+   "texte": "Et toi ? Réponds 1 : il devait démissionner. Ou 2 : c'est sa vie privée. Et abonne-toi.",
+   "sequence": {
+    "type": "cta",
+    "bulle": "1 ou 2 ? 👇"
+   }
+  }
+ ]
+}
