@@ -65,7 +65,7 @@ const aFaire = [];
 for (const l of episode.lignes) {
   const s = l.sequence || {};
   if (!s.source?.url) continue;
-  const cible = s.video || s.image;
+  const cible = s.video || s.image || s.photo;
   if (!cible) continue;
   const nom = path.basename(cible).replace(/\.[a-z0-9]+$/i, "");
   const chemin = path.join(RACINE, "public", cible);
