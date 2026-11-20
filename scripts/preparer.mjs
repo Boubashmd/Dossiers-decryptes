@@ -76,6 +76,24 @@ if (episode.photo?.fichier) {
   }
 }
 
+// Images, vraies photos et extraits vidéo : tous doivent être dans le dépôt avant la fabrication.
+{
+  const manquants = [];
+  const verifier = (seq) => {
+    if (!seq) return;
+    for (const k of ["image", "photo", "video"]) {
+      if (typeof seq[k] === "string" && !fs.existsSync(path.join(RACINE, "public", seq[k]))) manquants.push(seq[k]);
+    }
+    (seq.etapes || []).forEach(verifier);
+  };
+  episode.lignes.forEach((l) => verifier(l.sequence));
+  if (manquants.length) {
+    console.error(`❌ Fichiers introuvables dans public/ :\n  ${[...new Set(manquants)].join("\n  ")}`);
+    console.error("→ Sur le Mac : node scripts/generer-illustrations.mjs (images générées) et node scripts/recuperer-medias.mjs (vraies photos, extraits), puis git push.");
+    process.exit(1);
+  }
+}
+
 const normaliser = (s) =>
   s
     .toLowerCase()
