@@ -3,7 +3,9 @@ import {
   AbsoluteFill,
   Audio,
   Easing,
+  Freeze,
   Img,
+  OffthreadVideo,
   Sequence,
   interpolate,
   spring,
@@ -231,19 +233,34 @@ const Accroche: React.FC<SeqProps> = ({ p, dur }) => {
 // lent zoom vers un point, apparition « au trait » (balayage), étiquettes reliées par un trait.
 // p.image, p.titre, p.focus {x,y} en % de l'écran, p.zoom [début, fin], p.etiquettes [{texte, x, y, dx, dy, a}]
 // options : p.legende (texte crème sous le titre), p.heure (effet vidéosurveillance, + heureTop), p.tampon (+ tamponA, tamponTop, tamponTaille)
+// vraies photos (nov. 2026) : p.cadrage "flou" (photo entière sur fond flou, utile pour une photo en largeur),
+//   p.position (cadrage de la photo, ex. "50% 30%"), p.mention (petit crédit à l'écran, ex. « Photo : X / CC BY-SA 4.0 »)
 // ============================================================================================
+// EXTRAIT VIDÉO (type "video", nov. 2026) : même mise en page que l'illustration, mais p.video
+// (fichier .mp4 muet dans public/, préparé par scripts/recuperer-medias.mjs) remplace l'image.
+// Le son d'origine n'est jamais joué (muted) : la musique d'origine n'est donc pas détectée.
+// Si l'extrait est plus court que la phrase, sa dernière image reste figée.
+// ============================================================================================
+const Extrait: React.FC<{ p: any; style: React.CSSProperties }> = ({ p, style }) => {
+  const f = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const fin = Math.max(1, Math.floor((p.source?.duree ?? p.duree ?? 10) * fps) - 3);
+  const v = <OffthreadVideo src={staticFile(p.video)} muted style={style} />;
+  return f >= fin ? <Freeze frame={fin}>{v}</Freeze> : v;
+};
+
 const Illustration: React.FC<SeqProps> = ({ p, dur }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   const tamponA = p.tamponA ?? Math.round(dur * 0.45);
   // horodatage vidéosurveillance : p.heure (« 19/10/2025 10:27 ») + secondes qui défilent
   const secondes = String(Math.floor(f / fps) % 60).padStart(2, "0");
-  const [z0, z1] = p.zoom || [1.04, 1.16];
+  const [z0, z1] = p.zoom || (p.video ? [1, 1.04] : [1.04, 1.16]);
   const z = interpolate(f, [0, dur], [z0, z1], C);
   const fx = (p.focus?.x ?? 50) * 10.8;
   const fy = (p.focus?.y ?? 42) * 19.2;
   const balayage =
-    p.trace === false
+    p.trace === false || p.video
       ? 1
       : interpolate(f, [0, 16], [0, 1], { ...C, easing: io });
   const etiquettes: any[] = p.etiquettes || [];
@@ -265,18 +282,42 @@ const Illustration: React.FC<SeqProps> = ({ p, dur }) => {
             transformOrigin: `${fx}px ${fy}px`,
           }}
         >
-          <Img
-            src={staticFile(p.image)}
-            style={{
-              position: "absolute",
-              inset: 0,
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
-              WebkitMaskImage: `linear-gradient(180deg, #000 ${balayage * 100}%, transparent ${balayage * 100 + 12}%)`,
-              maskImage: `linear-gradient(180deg, #000 ${balayage * 100}%, transparent ${balayage * 100 + 12}%)`,
-            }}
-          />
+          {p.video ? (
+            <Extrait
+              p={p}
+              style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }}
+            />
+          ) : (
+            <>
+              {p.cadrage === "flou" && (
+                // fond : la même photo agrandie et floutée, pour remplir l'écran sans la couper
+                <Img
+                  src={staticFile(p.image)}
+                  style={{
+                    position: "absolute",
+                    inset: -60,
+                    width: "calc(100% + 120px)",
+                    height: "calc(100% + 120px)",
+                    objectFit: "cover",
+                    filter: "blur(28px) brightness(.55)",
+                  }}
+                />
+              )}
+              <Img
+                src={staticFile(p.image)}
+                style={{
+                  position: "absolute",
+                  left: 0,
+                  width: "100%",
+                  ...(p.cadrage === "flou"
+                    ? { top: p.photoTop ?? 420, height: p.photoHaut ?? 900, objectFit: "contain" }
+                    : { top: 0, height: "100%", objectFit: "cover", objectPosition: p.position || "50% 50%" }),
+                  WebkitMaskImage: `linear-gradient(180deg, #000 ${balayage * 100}%, transparent ${balayage * 100 + 12}%)`,
+                  maskImage: `linear-gradient(180deg, #000 ${balayage * 100}%, transparent ${balayage * 100 + 12}%)`,
+                }}
+              />
+            </>
+          )}
         </AbsoluteFill>
         {/* dégradés haut (titre) et bas (sous-titres) */}
         <AbsoluteFill
@@ -376,6 +417,23 @@ const Illustration: React.FC<SeqProps> = ({ p, dur }) => {
           }}
         >
           {p.legende}
+        </div>
+      )}
+      {p.mention && (
+        // petit crédit de la photo ou de l'extrait, à droite au-dessus des sous-titres
+        <div
+          style={{
+            position: "absolute",
+            top: p.mentionTop || 1180,
+            right: 50,
+            maxWidth: 700,
+            textAlign: "right",
+            opacity: 0.85 * prog(f, 6, 10),
+            ...txt(24, CREME, 500),
+            textShadow: `0 0 8px ${NUIT_NOIRE}, 0 2px 4px ${NUIT_NOIRE}`,
+          }}
+        >
+          {p.mention}
         </div>
       )}
       {p.heure && (
@@ -1258,6 +1316,7 @@ export const SEQUENCES: Record<string, React.FC<SeqProps>> = {
   pochette: Pochette,
   accroche: Accroche,
   illustration: Illustration,
+  video: Illustration,
   choc: Choc,
   generique: Generique,
   fiche: Fiche,
