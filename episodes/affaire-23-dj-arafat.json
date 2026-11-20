@@ -1,0 +1,684 @@
+{
+ "id": "affaire-23-dj-arafat",
+ "numero": 23,
+ "titre": "Qui était DJ Arafat ?",
+ "personnage": "DJ Arafat",
+ "style": "Detailed vintage engraving illustration, fine white and silver ink linework with cross-hatching, subtle warm gold highlights, deep midnight-blue background (#0B1626), dramatic soft light, museum catalogue look. Main subject in the upper half of the frame, empty dark lower third. No text, no letters, no logo, no watermark, not a photograph, no recognizable faces. Vertical 9:16.",
+ "reference": "illustrations/commun/reference.jpg",
+ "photo": {
+  "fichier": "illustrations/affaire-23-dj-arafat/portrait.jpg",
+  "legende": "DJ Arafat en concert, 2016",
+  "credit": "Photos : Jacquitoz, MKwadyo, Ptityorobo (CC BY-SA 4.0) et Francky Dicaprio (domaine public), via Wikimedia Commons. Extraits vidéo muets : chaîne officielle DJ Arafat (YouTube) et VOA Afrique. Illustrations générées par IA (Gemini)."
+ },
+ "publication": {
+  "accroche": "Qui était vraiment DJ Arafat ? Des maquis de Yopougon aux stades d'Afrique : ses danses, ses personnages, ses clashs, sa passion pour la moto… jusqu'au 12 août 2019. 📂 Portrait sourcé, avec photos et extraits d'époque",
+  "sources": "Wikipédia (DJ Arafat, fr et en) ; Le Monde (12 et 31 août 2019) ; Jeune Afrique (12 août 2019) ; The Africa Report (2019) ; Music In Africa ; Afrik.com ; OkayAfrica (2019) ; Quartz Africa (2019) ; Africanews et VOA Afrique (30 août 2019).",
+  "hashtags_episode": [
+   "#djarafat",
+   "#coupedecale"
+  ],
+  "commentaire_epingle": "📂 Ton titre préféré de DJ Arafat ? Dis-le en commentaire 👇 Et 1 = tu as dansé sur ses sons, 2 = tu le découvres."
+ },
+ "couverture": {
+  "titre": "QUI ÉTAIT DJ ARAFAT ?",
+  "sous": "Le roi du coupé-décalé",
+  "couleur": true,
+  "photo": "illustrations/affaire-23-dj-arafat/portrait.jpg"
+ },
+ "lignes": [
+  {
+   "id": "01",
+   "texte": "Il a fait danser toute l'Afrique… et sa mort a fait pleurer tout un pays.",
+   "sequence": {
+    "type": "accroche",
+    "photo": "illustrations/affaire-23-dj-arafat/portrait.jpg",
+    "couleur": true,
+    "titre": "QUI ÉTAIT DJ ARAFAT ?",
+    "sous": "Dossier nº 23 · Portrait",
+    "taille": 84,
+    "source": {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arafat_Dj_en_prestation_4_(cropped).jpg?width=1600"
+    }
+   }
+  },
+  {
+   "id": "02",
+   "texte": "Des foules entières reproduisaient ses pas, dans la rue, dans les maquis, dans les stades.",
+   "sequence": {
+    "type": "video",
+    "video": "videos/affaire-23-dj-arafat/gbobolor-foule.mp4",
+    "titre": "SES DANSES",
+    "legende": "Des foules entières",
+    "mention": "Extrait muet : clip « Gbobolor » (2015), chaîne officielle DJ Arafat",
+    "source": {
+     "url": "https://www.youtube.com/watch?v=kI5PKsPESV4",
+     "debut": "1:00",
+     "duree": 8,
+     "cadrage": "flou"
+    }
+   }
+  },
+  {
+   "id": "03",
+   "texte": "Voici l'histoire de DJ Arafat, le roi du coupé-décalé.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "LE ROI DU COUPÉ-DÉCALÉ",
+    "taille": 88,
+    "sous": "Côte d'Ivoire · 1986-2019"
+   }
+  },
+  {
+   "id": "04",
+   "texte": "Son vrai nom : Ange Didier Houon. Il naît le 26 janvier 1986 à Abidjan, en Côte d'Ivoire.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "ANGE DIDIER HOUON",
+    "taille": 92,
+    "sous": "Né le 26 janvier 1986 à Abidjan"
+   }
+  },
+  {
+   "id": "05",
+   "texte": "Ses parents sont musiciens. Sa mère, Tina Glamour, est une chanteuse connue pour ses danses très audacieuses.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-23-dj-arafat/enfance.jpg",
+    "titre": "UNE FAMILLE DE MUSICIENS",
+    "legende": "Sa mère : la chanteuse Tina Glamour",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A small boy seen from behind sitting in front of a big loudspeaker in a modest courtyard of a working-class neighborhood at dusk, musical instruments around, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "06",
+   "texte": "Mais elle est souvent en tournée. Dès onze ans, il traîne dans la rue, souvent livré à lui-même.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-23-dj-arafat/rue.jpg",
+    "titre": "LA RUE",
+    "legende": "Livré à lui-même",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A lonely teenage silhouette walking in a narrow street of a popular neighborhood at night, warm street lamps, corrugated roofs, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "07",
+   "texte": "Adolescent, il devient DJ dans les maquis de Yopougon, ces bars où Abidjan fait la fête.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-23-dj-arafat/maquis.jpg",
+    "titre": "LES MAQUIS",
+    "legende": "DJ dès l'adolescence, à Yopougon",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "An open-air bar at night with string lights and plastic chairs, a young DJ silhouette behind turntables, people dancing, festive atmosphere, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "08",
+   "texte": "Au même moment, un nouveau son explose : le coupé-décalé.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "LE COUPÉ-DÉCALÉ",
+    "taille": 100,
+    "sous": "Un nouveau son ivoirien"
+   }
+  },
+  {
+   "id": "09",
+   "texte": "Il naît vers 2002 dans des boîtes de nuit de Paris, avec Douk Saga et sa Jet Set, alors que la Côte d'Ivoire est en pleine guerre civile.",
+   "sequence": {
+    "type": "carte_monde",
+    "titre": "PARIS → ABIDJAN",
+    "points": [
+     {
+      "lon": 2.35,
+      "lat": 48.86,
+      "nom": "PARIS"
+     },
+     {
+      "lon": -4.01,
+      "lat": 5.35,
+      "nom": "ABIDJAN"
+     }
+    ],
+    "fleches": [
+     {
+      "de": [
+       2.35,
+       48.86
+      ],
+      "vers": [
+       -4.01,
+       5.35
+      ]
+     }
+    ],
+    "legende": "Vers 2002, avec Douk Saga et la Jet Set"
+   }
+  },
+  {
+   "id": "10",
+   "texte": "En argot ivoirien, « couper », c'est tricher, et « décaler », c'est filer. Une musique de fête, pour oublier la crise.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "COUPER · DÉCALER",
+    "taille": 92,
+    "sous": "Tricher, puis filer, en argot ivoirien (nouchi)"
+   }
+  },
+  {
+   "id": "11",
+   "texte": "En 2003, repéré par le producteur Roland le Binguiste, il sort son premier tube : un hommage au DJ Jonathan.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-23-dj-arafat/studio.jpg",
+    "titre": "LE PREMIER TUBE",
+    "legende": "2003 : « Hommage à Jonathan »",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A small home recording studio at night, a microphone with a pop filter under a single lamp, headphones hanging, mixing desk glowing, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "12",
+   "texte": "Son nom de scène ? Des amis libanais lui trouvaient un air de Yasser Arafat.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "ARAFAT",
+    "taille": 120,
+    "sous": "Un surnom donné par des amis libanais"
+   }
+  },
+  {
+   "id": "13",
+   "texte": "Le public découvre un DJ survolté, qui ne se contente pas de passer des disques : il chante, il crie, il danse.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-23-dj-arafat/debuts.jpg",
+    "titre": "LES DÉBUTS",
+    "legende": "Un DJ qui chante et qui danse",
+    "zoom": [
+     1,
+     1.08
+    ],
+    "trace": false,
+    "mention": "Photo : Francky Dicaprio / Wikimedia Commons (domaine public)",
+    "source": {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arafat_costar_2.jpg?width=1600"
+    },
+    "position": "50% 30%"
+   }
+  },
+  {
+   "id": "14",
+   "texte": "En 2005, il tente sa chance en France. Son visa expire : il finit en centre de rétention, puis il est renvoyé à Abidjan.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-23-dj-arafat/paris.jpg",
+    "titre": "PARIS, 2005",
+    "legende": "Puis retour forcé à Abidjan",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A wet Paris street at night with glowing nightclub entrance lights, a lone silhouette with a suitcase walking away under the rain, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "15",
+   "texte": "De retour, il forme un duo explosif avec Debordo Leekunfa. Leurs disputes et leurs réconciliations passionnent Abidjan.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-23-dj-arafat/debordo.jpg",
+    "titre": "LE DUO",
+    "legende": "Avec Debordo Leekunfa",
+    "zoom": [
+     1,
+     1.08
+    ],
+    "trace": false,
+    "mention": "Photo : MKwadyo / Wikimedia Commons, CC BY-SA 4.0",
+    "source": {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arafat_Dj_et_Debordo_Likufa_sur_un_meme_Scene_à_Abidjan.jpg?width=1600"
+    },
+    "cadrage": "flou"
+   }
+  },
+  {
+   "id": "16",
+   "texte": "En 2008, c'est le déclic : sa danse, le Kpangor, envahit l'Afrique de l'Ouest et centrale, du Burkina Faso au Gabon.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "LE KPANGOR",
+    "taille": 110,
+    "sous": "2008 · Son premier grand succès"
+   }
+  },
+  {
+   "id": "17",
+   "texte": "Sa révolution, c'est ça : chaque chanson arrive avec sa propre danse, que tout le monde apprend.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-23-dj-arafat/danse.jpg",
+    "titre": "UNE CHANSON, UNE DANSE",
+    "legende": "Que tout le monde apprend",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "Dozens of silhouettes dancing the exact same move together in a street at night, dust and colorful lights, joyful energy, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "18",
+   "texte": "Kpangor, Lebede, Zoropoto, Kpankaka, Gbobolor, Maplorly, Dosabado… Des dizaines de pas inventés.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "ZOROPOTO · GBOBOLOR · DOSABADO",
+    "taille": 64,
+    "sous": "Quelques-unes de ses danses"
+   }
+  },
+  {
+   "id": "19",
+   "texte": "En 2015, le clip de « Gbobolor » montre des centaines de danseurs dans la rue. La danse devient virale.",
+   "sequence": {
+    "type": "video",
+    "video": "videos/affaire-23-dj-arafat/gbobolor-rue.mp4",
+    "titre": "GBOBOLOR",
+    "legende": "2015 : la danse devient virale",
+    "mention": "Extrait muet : clip « Gbobolor » (2015), chaîne officielle DJ Arafat",
+    "source": {
+     "url": "https://www.youtube.com/watch?v=kI5PKsPESV4",
+     "debut": "0:36",
+     "duree": 8,
+     "cadrage": "flou"
+    }
+   }
+  },
+  {
+   "id": "20",
+   "texte": "Sur scène, il s'entoure de danseurs devenus célèbres : Magicien, Ordinateur, Bébé sans os.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-23-dj-arafat/danseurs.jpg",
+    "titre": "SES DANSEURS",
+    "legende": "Magicien et Bébé sans os",
+    "zoom": [
+     1,
+     1.08
+    ],
+    "trace": false,
+    "mention": "Photo : Francky Dicaprio / Wikimedia Commons (domaine public)",
+    "source": {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Magicien_et_bb_fauteil.jpg?width=1600"
+    },
+    "cadrage": "flou"
+   }
+  },
+  {
+   "id": "21",
+   "texte": "Ses concerts sont des spectacles : acrobaties, cris, énergie folle. Un style que personne n'avait vu.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-23-dj-arafat/scene.jpg",
+    "titre": "SUR SCÈNE",
+    "legende": "Une énergie folle",
+    "zoom": [
+     1,
+     1.08
+    ],
+    "trace": false,
+    "mention": "Photo : Jacquitoz / Wikimedia Commons, CC BY-SA 4.0",
+    "source": {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arafat_Dj_en_prestation_3.jpg?width=1600"
+    },
+    "cadrage": "flou"
+   }
+  },
+  {
+   "id": "22",
+   "texte": "Il change aussi le son : plus de batterie, de l'électro, du rock. Sa voix devient rauque, presque rock.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "AFRO-ROCK",
+    "taille": 110,
+    "sous": "Batterie, électro, voix rauque"
+   }
+  },
+  {
+   "id": "23",
+   "texte": "Et il se réinvente sans cesse : Yôrôbô, l'Apache, Commandant Zabra, Daïshikan… Un personnage pour chaque époque.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "YÔRÔBÔ · APACHE · DAÏSHIKAN",
+    "taille": 72,
+    "sous": "Quelques-uns de ses surnoms"
+   }
+  },
+  {
+   "id": "24",
+   "texte": "Il se proclame même « Yôrôbô 5 500 volts », puis 12 500… jusqu'à 100 000 volts.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "100 000 VOLTS",
+    "taille": 110,
+    "sous": "« Yôrôbô », toujours plus haut"
+   }
+  },
+  {
+   "id": "25",
+   "texte": "En août 2010, il devient le premier DJ de coupé-décalé à se produire seul au Palais de la Culture, la plus grande salle du pays.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-23-dj-arafat/palais.jpg",
+    "titre": "2010",
+    "legende": "Seul en tête d'affiche",
+    "zoom": [
+     1,
+     1.08
+    ],
+    "trace": false,
+    "mention": "Photo : Francky Dicaprio / Wikimedia Commons (domaine public)",
+    "source": {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arafat_concert_vrai.jpg?width=1600"
+    },
+    "cadrage": "flou"
+   }
+  },
+  {
+   "id": "26",
+   "texte": "Ses fans, il les appelle « les Chinois ». Une armée immense, dont il se dit le président.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-23-dj-arafat/chinois.jpg",
+    "titre": "« LES CHINOIS »",
+    "legende": "Le président de la Chine, c'est lui",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "An immense crowd at night seen from the stage, thousands of raised phone lights like a sea of stars, flags waving, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "27",
+   "texte": "En 2012, il remporte deux Kora Awards, les grands prix de la musique africaine.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "2 KORA AWARDS",
+    "taille": 96,
+    "sous": "2012 · Dont meilleur artiste africain"
+   }
+  },
+  {
+   "id": "28",
+   "texte": "Il tourne dans toute l'Afrique et chante avec les plus grands : Fally Ipupa, Davido…",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "TOUTE L'AFRIQUE",
+    "taille": 100,
+    "sous": "Des duos avec Fally Ipupa, Davido…"
+   }
+  },
+  {
+   "id": "29",
+   "texte": "Comme ici, au Tchad, en 2014, devant un stade entier.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-23-dj-arafat/tchad.jpg",
+    "titre": "TCHAD, 2014",
+    "legende": "Devant un stade entier",
+    "zoom": [
+     1,
+     1.08
+    ],
+    "trace": false,
+    "mention": "Photo : Ptityorobo / Wikimedia Commons, CC BY-SA 4.0",
+    "source": {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arafat_-_Stade_Tchad_2014.jpg?width=1600"
+    },
+    "cadrage": "flou"
+   }
+  },
+  {
+   "id": "30",
+   "texte": "Mais le roi a aussi sa part d'ombre : clashs violents avec ses rivaux, provocations, dérapages.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-23-dj-arafat/clash.jpg",
+    "titre": "LA PART D'OMBRE",
+    "legende": "Clashs, provocations, dérapages",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "Two microphones on stands facing each other on a dark empty stage, harsh red and blue spotlights crossing, tension, smoke, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "31",
+   "texte": "Il l'assume : les clashs le poussent à se dépasser, dit-il. Mais plusieurs fois, il devra s'excuser publiquement.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "« ÇA ME POUSSE »",
+    "taille": 96,
+    "sous": "Il dit puiser son énergie dans les clashs"
+   }
+  },
+  {
+   "id": "32",
+   "texte": "Il signe chez Universal Music et prépare l'album « Renaissance ». Son rêve : un disque d'or.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "RENAISSANCE",
+    "taille": 100,
+    "sous": "Son dernier album · Universal Music"
+   }
+  },
+  {
+   "id": "33",
+   "texte": "Mais il a une passion dangereuse : la moto. Dès 2009, il survit à de graves accidents.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-23-dj-arafat/moto.jpg",
+    "titre": "LA MOTO",
+    "legende": "Dès 2009, de graves accidents",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A powerful motorcycle parked alone on an empty city road at night, headlight glowing, wet asphalt reflecting street lights, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "34",
+   "texte": "En mai 2019, il sort même un titre baptisé « Moto Moto ».",
+   "sequence": {
+    "type": "video",
+    "video": "videos/affaire-23-dj-arafat/motomoto.mp4",
+    "titre": "« MOTO MOTO »",
+    "legende": "Mai 2019",
+    "mention": "Extrait muet : clip « Moto Moto » (2019), chaîne officielle DJ Arafat",
+    "source": {
+     "url": "https://www.youtube.com/watch?v=k57W2dE7x6I",
+     "debut": "1:06",
+     "duree": 8,
+     "cadrage": "flou"
+    }
+   }
+  },
+  {
+   "id": "35",
+   "texte": "Dans la nuit du 11 août 2019, à Abidjan, sa moto percute une voiture. Il ne porte pas de casque.",
+   "sequence": {
+    "type": "choc",
+    "photo": "illustrations/affaire-23-dj-arafat/moto.jpg",
+    "texte": "11 AOÛT 2019"
+   }
+  },
+  {
+   "id": "36",
+   "texte": "Il meurt le lendemain matin, à seulement 33 ans.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "33 ANS",
+    "taille": 130,
+    "sous": "12 août 2019"
+   }
+  },
+  {
+   "id": "37",
+   "texte": "Devant la clinique, ses fans refusent d'y croire. Ils crient qu'Arafat ne peut pas mourir.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-23-dj-arafat/hopital.jpg",
+    "titre": "« IL N'EST PAS MORT »",
+    "legende": "Ses fans, devant la clinique",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A crowd of silhouettes gathered at night in front of a hospital building, some holding candles and phones, emotional atmosphere, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "38",
+   "texte": "Le 30 août, le stade Félix Houphouët-Boigny d'Abidjan se remplit pour un dernier hommage.",
+   "sequence": {
+    "type": "video",
+    "video": "videos/affaire-23-dj-arafat/stade.mp4",
+    "titre": "L'HOMMAGE",
+    "legende": "Stade Félix Houphouët-Boigny, 30 août 2019",
+    "mention": "Extrait muet : VOA Afrique, 30 août 2019",
+    "source": {
+     "url": "https://www.youtube.com/watch?v=khquY8RsVfY",
+     "debut": "0:00",
+     "duree": 10,
+     "cadrage": "flou"
+    }
+   }
+  },
+  {
+   "id": "39",
+   "texte": "Pendant près de 24 heures, plus de 50 artistes se succèdent : Fally Ipupa, Davido, Koffi Olomidé…",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "24 HEURES",
+    "taille": 120,
+    "sous": "Plus de 50 artistes sur scène"
+   }
+  },
+  {
+   "id": "40",
+   "texte": "Quelques mois plus tôt, l'État l'avait fait officier de l'ordre du mérite culturel ivoirien.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "OFFICIER",
+    "taille": 110,
+    "sous": "Ordre du mérite culturel ivoirien · 2019"
+   }
+  },
+  {
+   "id": "41",
+   "texte": "Aujourd'hui encore, ses fans continuent de lui rendre hommage, année après année.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-23-dj-arafat/hommage.jpg",
+    "titre": "TOUJOURS LÀ",
+    "legende": "Ses fans ne l'oublient pas",
+    "zoom": [
+     1,
+     1.08
+    ],
+    "trace": false,
+    "mention": "Photo : Jacquitoz / Wikimedia Commons, CC BY-SA 4.0",
+    "source": {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arafat_Dj_en_prestation_1.jpg?width=1600"
+    },
+    "cadrage": "flou"
+   }
+  },
+  {
+   "id": "42",
+   "texte": "Il laisse une dizaine d'albums, des dizaines de danses… et une génération entière qui danse encore.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-23-dj-arafat/heritage.jpg",
+    "titre": "L'HÉRITAGE",
+    "legende": "Une génération qui danse encore",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "An empty stage with a single microphone on a stand under one spotlight, a distant crowd of silhouettes dancing in the dark, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "43",
+   "texte": "Une légende du coupé-décalé.",
+   "sequence": {
+    "type": "fin",
+    "etiquette": [
+     "DOSSIER Nº 23",
+     "DJ ARAFAT"
+    ],
+    "texte": "UNE LÉGENDE"
+   }
+  },
+  {
+   "id": "44",
+   "texte": "Et toi ? Réponds 1 : tu as dansé sur ses sons. Ou 2 : tu le découvres. Et dis-nous ton titre préféré. Abonne-toi.",
+   "sequence": {
+    "bulle": "1 ou 2 ? 👇",
+    "type": "cta"
+   }
+  }
+ ]
+}
