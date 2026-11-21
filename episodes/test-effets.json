@@ -1,0 +1,182 @@
+{
+ "id": "test-effets",
+ "numero": 23,
+ "titre": "Test vignette et grain",
+ "personnage": "DJ Arafat",
+ "style": "Detailed vintage engraving illustration, fine white and silver ink linework with cross-hatching, subtle warm gold highlights, deep midnight-blue background (#0B1626), dramatic soft light, museum catalogue look. Main subject in the upper half of the frame, empty dark lower third. No text, no letters, no logo, no watermark, not a photograph, no recognizable faces. Vertical 9:16.",
+ "reference": "illustrations/commun/reference.jpg",
+ "photo": {
+  "fichier": "illustrations/affaire-23-dj-arafat/portrait.jpg",
+  "legende": "DJ Arafat en concert, 2016",
+  "credit": "Photos : Jacquitoz, MKwadyo, Ptityorobo (CC BY-SA 4.0) et Francky Dicaprio (domaine public), via Wikimedia Commons. Extraits vidéo muets : chaîne officielle DJ Arafat (YouTube) et VOA Afrique. Illustrations générées par IA (Gemini)."
+ },
+ "publication": {
+  "accroche": "Qui était vraiment DJ Arafat ? Des maquis de Yopougon aux stades d'Afrique : ses danses, ses personnages, ses clashs, sa passion pour la moto… jusqu'au 12 août 2019. 📂 Portrait sourcé, avec photos et extraits d'époque",
+  "sources": "Wikipédia (DJ Arafat, fr et en) ; Le Monde (12 et 31 août 2019) ; Jeune Afrique (12 août 2019) ; The Africa Report (2019) ; Music In Africa ; Afrik.com ; OkayAfrica (2019) ; Quartz Africa (2019) ; Africanews et VOA Afrique (30 août 2019).",
+  "hashtags_episode": [
+   "#djarafat",
+   "#coupedecale"
+  ],
+  "commentaire_epingle": "📂 Ton titre préféré de DJ Arafat ? Dis-le en commentaire 👇 Et 1 = tu as dansé sur ses sons, 2 = tu le découvres."
+ },
+ "couverture": {
+  "titre": "QUI ÉTAIT DJ ARAFAT ?",
+  "sous": "Le roi du coupé-décalé",
+  "couleur": true,
+  "photo": "illustrations/affaire-23-dj-arafat/portrait.jpg"
+ },
+ "lignes": [
+  {
+   "id": "01",
+   "texte": "Il a fait danser toute l'Afrique… et sa mort a fait pleurer tout un pays.",
+   "sequence": {
+    "type": "accroche",
+    "photo": "illustrations/affaire-23-dj-arafat/portrait.jpg",
+    "couleur": true,
+    "titre": "QUI ÉTAIT DJ ARAFAT ?",
+    "sous": "Dossier nº 23 · Portrait",
+    "taille": 84,
+    "source": {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arafat_Dj_en_prestation_4_(cropped).jpg?width=1600"
+    }
+   }
+  },
+  {
+   "id": "05",
+   "texte": "Ses parents sont musiciens. Sa mère, Tina Glamour, est une chanteuse connue pour ses danses très audacieuses.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-23-dj-arafat/enfance.jpg",
+    "titre": "UNE FAMILLE DE MUSICIENS",
+    "legende": "Sa mère : la chanteuse Tina Glamour",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A small boy seen from behind sitting in front of a big loudspeaker in a modest courtyard of a working-class neighborhood at dusk, musical instruments around, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "06",
+   "texte": "Mais elle est souvent en tournée. Dès onze ans, il traîne dans la rue, souvent livré à lui-même.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-23-dj-arafat/rue.jpg",
+    "titre": "LA RUE",
+    "legende": "Livré à lui-même",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A lonely teenage silhouette walking in a narrow street of a popular neighborhood at night, warm street lamps, corrugated roofs, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "07",
+   "texte": "Adolescent, il devient DJ dans les maquis de Yopougon, ces bars où Abidjan fait la fête.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-23-dj-arafat/maquis.jpg",
+    "titre": "LES MAQUIS",
+    "legende": "DJ dès l'adolescence, à Yopougon",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "An open-air bar at night with string lights and plastic chairs, a young DJ silhouette behind turntables, people dancing, festive atmosphere, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "13",
+   "texte": "Le public découvre un DJ survolté, qui ne se contente pas de passer des disques : il chante, il crie, il danse.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-23-dj-arafat/debuts.jpg",
+    "titre": "LES DÉBUTS",
+    "legende": "Un DJ qui chante et qui danse",
+    "zoom": [
+     1,
+     1.08
+    ],
+    "trace": false,
+    "mention": "Photo : Francky Dicaprio / Wikimedia Commons (domaine public)",
+    "source": {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arafat_costar_2.jpg?width=1600"
+    },
+    "position": "50% 30%"
+   }
+  },
+  {
+   "id": "15",
+   "texte": "De retour, il forme un duo explosif avec Debordo Leekunfa. Leurs disputes et leurs réconciliations passionnent Abidjan.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-23-dj-arafat/debordo.jpg",
+    "titre": "LE DUO",
+    "legende": "Avec Debordo Leekunfa",
+    "zoom": [
+     1,
+     1.08
+    ],
+    "trace": false,
+    "mention": "Photo : MKwadyo / Wikimedia Commons, CC BY-SA 4.0",
+    "source": {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arafat_Dj_et_Debordo_Likufa_sur_un_meme_Scene_à_Abidjan.jpg?width=1600"
+    },
+    "cadrage": "flou"
+   }
+  },
+  {
+   "id": "19",
+   "texte": "En 2015, le clip de « Gbobolor » montre des centaines de danseurs dans la rue. La danse devient virale.",
+   "sequence": {
+    "type": "video",
+    "video": "videos/affaire-23-dj-arafat/gbobolor-rue.mp4",
+    "titre": "GBOBOLOR",
+    "legende": "2015 : la danse devient virale",
+    "mention": "Extrait muet : clip « Gbobolor » (2015), chaîne officielle DJ Arafat",
+    "source": {
+     "url": "https://www.youtube.com/watch?v=kI5PKsPESV4",
+     "debut": "0:36",
+     "duree": 8,
+     "cadrage": "flou"
+    }
+   }
+  },
+  {
+   "id": "29",
+   "texte": "Comme ici, au Tchad, en 2014, devant un stade entier.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-23-dj-arafat/tchad.jpg",
+    "titre": "TCHAD, 2014",
+    "legende": "Devant un stade entier",
+    "zoom": [
+     1,
+     1.08
+    ],
+    "trace": false,
+    "mention": "Photo : Ptityorobo / Wikimedia Commons, CC BY-SA 4.0",
+    "source": {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arafat_-_Stade_Tchad_2014.jpg?width=1600"
+    },
+    "cadrage": "flou"
+   }
+  },
+  {
+   "id": "33",
+   "texte": "Mais il a une passion dangereuse : la moto. Dès 2009, il survit à de graves accidents.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-23-dj-arafat/moto.jpg",
+    "titre": "LA MOTO",
+    "legende": "Dès 2009, de graves accidents",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A powerful motorcycle parked alone on an empty city road at night, headlight glowing, wet asphalt reflecting street lights, nobody's face visible, no logos, no readable text"
+   }
+  }
+ ]
+}

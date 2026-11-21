@@ -39,6 +39,8 @@ import { Avion } from "../dessins/aviation";
 import { Accordeon, FausseTete, Perceuse, Radeau } from "../dessins/evasion";
 import { Joconde, Malle } from "../dessins/louvre";
 import { Signature } from "../Logo";
+import { vignette } from "@remotion/effects/vignette";
+import { noise } from "@remotion/effects/noise";
 import { Couronne, Vitrine } from "../dessins/casse";
 import { Intro } from "./Generique";
 import { CarteMed } from "./CarteMed";
@@ -305,6 +307,17 @@ const Illustration: React.FC<SeqProps> = ({ p, dur }) => {
               )}
               <Img
                 src={staticFile(p.image)}
+                // vignette bleu nuit + grain qui bouge à chaque image (essai nov. 2026, Remotion 4.0.545).
+                // Désactivable par séquence avec "effets": false.
+                effects={
+                  p.effets === false
+                    ? []
+                    : [
+                        vignette({ amount: 0.9, radius: 0.38, feather: 0.55, color: NUIT_NOIRE }),
+                        // premultiply : le grain reste sur les parties éclairées, les noirs restent bleu nuit
+                        noise({ amount: 0.13, seed: f, premultiply: true }),
+                      ]
+                }
                 style={{
                   position: "absolute",
                   left: 0,
