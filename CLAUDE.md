@@ -1,6 +1,6 @@
 # Dossiers Décryptés — consignes pour Claude Code
 
-Chaîne TikTok **Dossiers Décryptés** (ancien nom : Dossiers Classés, changé le 08/11/2026 ; identifiant @dossiersdecryptes) : récits animés d'affaires vraies et sourcées, et depuis le 08/11/2026 des « dossiers expliqués » (fonctionnement d'un système, fait de société : retraite, chômage…), toujours neutres et sourcés (sources officielles : COR, Cour des comptes, Unédic, INSEE, service-public.fr). En français. Vidéo fabriquée avec Remotion 4.0.300.
+Chaîne TikTok **Dossiers Décryptés** (ancien nom : Dossiers Classés, changé le 08/11/2026 ; identifiant @dossiersdecryptes) : récits animés d'affaires vraies et sourcées, et depuis le 08/11/2026 des « dossiers expliqués » (fonctionnement d'un système, fait de société : retraite, chômage…), toujours neutres et sourcés (sources officielles : COR, Cour des comptes, Unédic, INSEE, service-public.fr). En français. Vidéo fabriquée avec Remotion 4.0.545 (depuis le 21/11/2026 ; skills officiels Remotion dans `.claude/skills`).
 Ce dépôt est **séparé** de Flash Monde et de Kalia et Kouli : ne jamais toucher à ces projets.
 
 ## L'utilisateur
@@ -40,6 +40,7 @@ Ce dépôt est **séparé** de Flash Monde et de Kalia et Kouli : ne jamais touc
 - Ne pas retaper le nom avec une police, ne pas déformer ni recolorer le logo. Règles complètes : guide d'usage du kit du logo.
 
 ## Commandes
+- **Rendu sur GitHub uniquement (depuis le 21/11/2026)** : Remotion 4.0.545 exige macOS 15 pour lire vidéo et son ; ce Mac est en macOS 13. En local, seulement des images fixes (`still`) de séquences sans extrait vidéo ; toute vidéo complète, tout extrait et toute vérification du son passent par le workflow GitHub (Linux). Mettre à jour Remotion seulement via `npx remotion upgrade`, sur une branche, testée par un run GitHub avant fusion.
 - Préparer sans voix : `node scripts/preparer.mjs episodes/<id>.json --sans-voix`
 - Préparer avec voix : `node scripts/preparer.mjs episodes/<id>.json` (demande `ELEVENLABS_API_KEY`)
 - Vidéo : `npx remotion render src/index.ts Episode sorties/<id>/<id>.mp4 --crf=20`
