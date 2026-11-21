@@ -39,8 +39,6 @@ import { Avion } from "../dessins/aviation";
 import { Accordeon, FausseTete, Perceuse, Radeau } from "../dessins/evasion";
 import { Joconde, Malle } from "../dessins/louvre";
 import { Signature } from "../Logo";
-import { vignette } from "@remotion/effects/vignette";
-import { noise } from "@remotion/effects/noise";
 import { Couronne, Vitrine } from "../dessins/casse";
 import { Intro } from "./Generique";
 import { CarteMed } from "./CarteMed";
@@ -251,6 +249,30 @@ const Extrait: React.FC<{ p: any; style: React.CSSProperties }> = ({ p, style })
   return f >= fin ? <Freeze frame={fin}>{v}</Freeze> : v;
 };
 
+// Vignette (bords assombris en bleu nuit) + grain qui change à chaque image.
+// Le grain est en mode « overlay » : il se voit sur les parties éclairées, les noirs restent bleu nuit.
+const VignetteGrain: React.FC = () => {
+  const f = useCurrentFrame();
+  return (
+    <>
+      <AbsoluteFill
+        style={{
+          background: `radial-gradient(ellipse 72% 58% at 50% 40%, rgba(7,14,26,0) 30%, rgba(7,14,26,.65) 64%, ${NUIT_NOIRE} 100%)`,
+        }}
+      />
+      <AbsoluteFill style={{ mixBlendMode: "overlay", opacity: 0.35 }}>
+        <svg width={1080} height={1920} viewBox="0 0 1080 1920">
+          <filter id="grain-pellicule">
+            <feTurbulence type="fractalNoise" baseFrequency={0.85} numOctaves={2} seed={f} stitchTiles="stitch" />
+            <feColorMatrix type="saturate" values="0" />
+          </filter>
+          <rect width="100%" height="100%" filter="url(#grain-pellicule)" />
+        </svg>
+      </AbsoluteFill>
+    </>
+  );
+};
+
 const Illustration: React.FC<SeqProps> = ({ p, dur }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -307,17 +329,6 @@ const Illustration: React.FC<SeqProps> = ({ p, dur }) => {
               )}
               <Img
                 src={staticFile(p.image)}
-                // vignette bleu nuit + grain qui bouge à chaque image (essai nov. 2026, Remotion 4.0.545).
-                // Désactivable par séquence avec "effets": false.
-                effects={
-                  p.effets === false
-                    ? []
-                    : [
-                        vignette({ amount: 0.9, radius: 0.38, feather: 0.55, color: NUIT_NOIRE }),
-                        // premultiply : le grain reste sur les parties éclairées, les noirs restent bleu nuit
-                        noise({ amount: 0.13, seed: f, premultiply: true }),
-                      ]
-                }
                 style={{
                   position: "absolute",
                   left: 0,
@@ -332,6 +343,10 @@ const Illustration: React.FC<SeqProps> = ({ p, dur }) => {
             </>
           )}
         </AbsoluteFill>
+        {/* vignette bleu nuit + grain de pellicule (nov. 2026), en CSS/SVG : rapide à fabriquer,
+            contrairement aux effets WebGL de @remotion/effects (trop lents sur GitHub, sans carte graphique).
+            Pas sur les extraits vidéo. Désactivable par séquence avec "effets": false. */}
+        {!p.video && p.effets !== false && <VignetteGrain />}
         {/* dégradés haut (titre) et bas (sous-titres) */}
         <AbsoluteFill
           style={{
