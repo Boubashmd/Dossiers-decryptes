@@ -1,0 +1,321 @@
+{
+ "id": "affaire-24-nvidia-retour",
+ "numero": 24,
+ "titre": "Nvidia : le retour de Jensen Huang",
+ "personnage": "Jensen Huang",
+ "style": "Detailed vintage engraving illustration, fine white and silver ink linework with cross-hatching, subtle warm gold highlights, deep midnight-blue background (#0B1626), dramatic soft light, museum catalogue look. Main subject in the upper half of the frame, empty dark lower third. No text, no letters, no logo, no watermark, not a photograph, no recognizable faces. Vertical 9:16.",
+ "reference": "illustrations/commun/reference.jpg",
+ "photo": {
+  "fichier": "illustrations/affaire-24-nvidia-retour/portrait.jpg",
+  "legende": "Jensen Huang à Stanford, avril 2026",
+  "credit": "Photos : Anders Eidesvik (CC BY-SA 4.0 et CC BY 4.0), via Wikimedia Commons. Illustrations générées par IA (Gemini)."
+ },
+ "publication": {
+  "accroche": "Démissionné le 12 novembre, écarté le 17… réintégré le 23 à l'unanimité. Jensen Huang reprend la tête de Nvidia : pétition, Trump, +31 % en bourse, liste noire et enquêtes qui continuent. 📂 Dossier sourcé · Épisode 2",
+  "sources": "Nvidia (communiqué du 23 novembre 2026, déposé à la SEC) ; Reuters (23 novembre 2026, via Investing.com) ; AP (17 novembre 2026) ; CNBC (23 et 24 novembre 2026) ; Financial Times (24 novembre 2026, via Yahoo Finance) ; Forbes (23 novembre 2026).",
+  "hashtags_episode": [
+   "#nvidia",
+   "#jensenhuang"
+  ],
+  "commentaire_epingle": "📂 Ton avis : 1 = il méritait de revenir, 2 = c'est un passe-droit 👇 Rien n'est jugé : personne n'est inculpé à ce jour."
+ },
+ "couverture": {
+  "titre": "NVIDIA : LE RETOUR",
+  "sous": "11 jours pour tout perdre, et tout reprendre",
+  "couleur": true,
+  "photo": "illustrations/affaire-24-nvidia-retour/portrait.jpg"
+ },
+ "lignes": [
+  {
+   "id": "01",
+   "texte": "Il avait tout perdu. Onze jours plus tard, il a tout récupéré.",
+   "sequence": {
+    "type": "accroche",
+    "photo": "illustrations/affaire-24-nvidia-retour/portrait.jpg",
+    "couleur": true,
+    "titre": "NVIDIA : LE RETOUR",
+    "sous": "Dossier nº 24 · Épisode 2",
+    "taille": 84,
+    "source": {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jensen_Huang_Stanford_2026-04-30_010_(cropped).jpg?width=1600"
+    }
+   }
+  },
+  {
+   "id": "02",
+   "texte": "Si tu as raté le début : le 12 novembre, Jensen Huang, le fondateur de Nvidia, démissionne après la révélation de deux liaisons.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-24-nvidia-retour/scene.jpg",
+    "titre": "JENSEN HUANG",
+    "legende": "Fondateur de Nvidia",
+    "zoom": [
+     1,
+     1.08
+    ],
+    "trace": false,
+    "mention": "Photo : Anders Eidesvik / Wikimedia Commons, CC BY 4.0",
+    "source": {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jensen_huang_stanford_2026-04-09_033.jpg?width=1600"
+    },
+    "position": "50% 30%"
+   }
+  },
+  {
+   "id": "03",
+   "texte": "L'une avec une femme d'affaires que des responsables américains soupçonnent d'espionnage pour la Chine. Pékin dément.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "ESPIONNE PRÉSUMÉE",
+    "taille": 88,
+    "sous": "Selon des responsables américains · Pékin dément"
+   }
+  },
+  {
+   "id": "04",
+   "texte": "Le 17 novembre, le président du conseil d'administration est catégorique : Nvidia ne le reprendra pas.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-22-nvidia/conseil.jpg",
+    "titre": "17 NOVEMBRE",
+    "legende": "« Pas l'intention de le reprendre »",
+    "zoom": [
+     1,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "05",
+   "texte": "Mais une pétition, « Stand with Jensen », circule chez les employés et les investisseurs. Elle dépasse cent quatre-vingt mille signatures.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-24-nvidia-retour/petition.jpg",
+    "titre": "« STAND WITH JENSEN »",
+    "legende": "Plus de 180 000 signatures",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "Dozens of glowing smartphone screens held up in the dark like a crowd, each screen showing a generic petition form with a signature line and a check mark, warm gold highlights, nobody's face visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "06",
+   "texte": "Elon Musk réclame son retour. Donald Trump aussi.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "MUSK · TRUMP",
+    "taille": 110,
+    "sous": "Ils réclament son retour"
+   }
+  },
+  {
+   "id": "07",
+   "texte": "Puis, le lundi 23 novembre, coup de théâtre.",
+   "sequence": {
+    "type": "choc",
+    "photo": "illustrations/affaire-22-nvidia/chaise.jpg",
+    "texte": "23 NOVEMBRE"
+   }
+  },
+  {
+   "id": "08",
+   "texte": "Le conseil le réintègre à l'unanimité, avec effet immédiat.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-24-nvidia-retour/retour.jpg",
+    "titre": "IL REVIENT",
+    "legende": "À l'unanimité, avec effet immédiat",
+    "zoom": [
+     1,
+     1.08
+    ],
+    "trace": false,
+    "mention": "Photo : Anders Eidesvik / Wikimedia Commons, CC BY 4.0",
+    "source": {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jensen_huang_stanford_2026-04-30_008.jpg?width=1600"
+    },
+    "position": "50% 30%"
+   }
+  },
+  {
+   "id": "09",
+   "texte": "Selon le Financial Times, la patronne par intérim n'a même pas été associée aux discussions.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-24-nvidia-retour/porte.jpg",
+    "titre": "DANS LE SECRET",
+    "legende": "Selon le Financial Times",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A closed heavy wooden boardroom door at night, a thin line of golden light under it, an empty corridor in front with a single chair, secrecy, nobody visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "10",
+   "texte": "Nvidia assure que le gouvernement américain ne voit dans son retour aucun risque pour la sécurité nationale.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "« AUCUN RISQUE »",
+    "taille": 84,
+    "sous": "Pour la sécurité nationale, selon Nvidia"
+   }
+  },
+  {
+   "id": "11",
+   "texte": "Donald Trump, lui, affirme : « Mon intervention a été très importante pour faire revenir Jensen Huang. »",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "« MON INTERVENTION »",
+    "taille": 96,
+    "sous": "Donald Trump, sur CNBC"
+   }
+  },
+  {
+   "id": "12",
+   "texte": "En bourse, l'action bondit de plus de 31 % en une seule journée. Près de mille milliards de dollars de valeur retrouvés.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "EN UNE JOURNÉE",
+    "valeur": 31.5,
+    "decimales": 1,
+    "unite": "%",
+    "legende": "Action Nvidia, lundi 23 novembre",
+    "fin": 0.55
+   }
+  },
+  {
+   "id": "13",
+   "texte": "Mais l'agence Reuters relève que Donald Trump détient des actions Nvidia. La Maison-Blanche répond que son portefeuille est géré par des tiers indépendants.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/bourse.jpg",
+    "titre": "CONFLIT D'INTÉRÊTS ?",
+    "legende": "Selon Reuters · La Maison-Blanche répond",
+    "zoom": [
+     1,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "14",
+   "texte": "Au Sénat, des élus des deux camps protestent. Pour le républicain Pete Ricketts, ce retour « n'exonère pas Nvidia » sur la sécurité nationale.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-22-nvidia/congres.jpg",
+    "titre": "AU SÉNAT",
+    "legende": "Les deux camps protestent",
+    "zoom": [
+     1,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "15",
+   "texte": "Le même jour, Washington place sur liste noire la société de Singapour au cœur de l'affaire, ainsi qu'une filiale d'Alibaba, qui conteste.",
+   "sequence": {
+    "type": "carte_monde",
+    "titre": "LISTE NOIRE",
+    "points": [
+     {
+      "lon": 103.82,
+      "lat": 1.35,
+      "nom": "SINGAPOUR"
+     },
+     {
+      "lon": -77.04,
+      "lat": 38.9,
+      "nom": "WASHINGTON"
+     }
+    ],
+    "fleches": [
+     {
+      "de": [
+       -77.04,
+       38.9
+      ],
+      "vers": [
+       103.82,
+       1.35
+      ]
+     }
+    ],
+    "legende": "Alibaba conteste"
+   }
+  },
+  {
+   "id": "16",
+   "texte": "Et rien n'est terminé : l'enquête interne continue, et Jensen Huang doit être entendu par le Congrès début décembre.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/loupe.jpg",
+    "titre": "L'ENQUÊTE CONTINUE",
+    "legende": "Audition publique au Sénat le 3 décembre",
+    "zoom": [
+     1,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "17",
+   "texte": "À ce jour, personne n'a été inculpé.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "AUCUNE INCULPATION",
+    "taille": 100,
+    "sous": "À ce jour"
+   }
+  },
+  {
+   "id": "18",
+   "texte": "Lui promet d'être « un meilleur patron la seconde fois ».",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-24-nvidia-retour/veste.jpg",
+    "titre": "« LA SECONDE FOIS »",
+    "legende": "Jensen Huang à ses employés",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A black leather jacket hanging again on the back of an office chair at dawn, a large window behind with a city skyline and first sunlight, a laptop opening on the desk, nobody visible, no logos, no readable text"
+   }
+  },
+  {
+   "id": "19",
+   "texte": "Onze jours pour tout perdre, et tout reprendre.",
+   "sequence": {
+    "type": "fin",
+    "etiquette": [
+     "DOSSIER Nº 24",
+     "NVIDIA · ÉPISODE 2"
+    ],
+    "texte": "À SUIVRE"
+   }
+  },
+  {
+   "id": "20",
+   "texte": "Et toi ? Réponds 1 : il méritait de revenir. Ou 2 : c'est un passe-droit. Et abonne-toi pour la suite.",
+   "sequence": {
+    "type": "cta",
+    "bulle": "1 ou 2 ? 👇"
+   }
+  }
+ ]
+}
