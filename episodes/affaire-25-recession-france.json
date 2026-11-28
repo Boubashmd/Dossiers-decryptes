@@ -6,7 +6,7 @@
  "style": "Detailed vintage engraving illustration, fine white and silver ink linework with cross-hatching, subtle warm gold highlights, deep midnight-blue background (#0B1626), dramatic soft light, museum catalogue look. Main subject in the upper half of the frame, empty dark lower third. No text, no letters, no logo, no watermark, not a photograph, no recognizable faces. Vertical 9:16.",
  "reference": "illustrations/commun/reference.jpg",
  "photo": {
-  "fichier": "illustrations/affaire-25-recession-france/accroche.jpg",
+  "fichier": "illustrations/commun/paris.jpg",
   "legende": "Illustration",
   "credit": "Photos : Lukasz Kobus / Union européenne et jlm2017.fr (CC BY 4.0), via Wikimedia Commons. Illustrations générées par IA (Gemini)."
  },
@@ -24,7 +24,7 @@
   "titre": "LA FRANCE EN RÉCESSION",
   "sous": "Ce que disent les chiffres, et l'histoire",
   "couleur": true,
-  "photo": "illustrations/affaire-25-recession-france/accroche.jpg"
+  "photo": "illustrations/commun/paris.jpg"
  },
  "lignes": [
   {
@@ -32,12 +32,11 @@
    "texte": "C'est officiel : la France est en récession.",
    "sequence": {
     "type": "accroche",
-    "photo": "illustrations/affaire-25-recession-france/accroche.jpg",
+    "photo": "illustrations/commun/paris.jpg",
     "couleur": true,
     "titre": "LA FRANCE EN RÉCESSION",
     "sous": "Dossier nº 25 · Insee, 27 novembre 2026",
-    "taille": 80,
-    "prompt": "The Eiffel Tower at dusk seen from below, a giant downward-pointing arrow made of golden light crossing the sky behind it, storm clouds, dramatic and ominous, nobody's face visible, no logos, no text, no letters, no numbers"
+    "taille": 80
    }
   },
   {
@@ -57,14 +56,13 @@
    "texte": "Et le deuxième trimestre, qu'on croyait stable, est désormais en très léger recul.",
    "sequence": {
     "type": "illustration",
-    "image": "illustrations/affaire-25-recession-france/graphique.jpg",
+    "image": "illustrations/affaire-22-nvidia/chute.jpg",
     "titre": "RÉVISION",
     "legende": "Le 2e trimestre passe en léger recul",
     "zoom": [
      1,
      1.15
-    ],
-    "prompt": "An old paper economic chart pinned on a dark wall, a single line slowly bending downward at the end, a red pencil and an eraser lying below, nobody's face visible, no logos, no text, no letters, no numbers"
+    ]
    }
   },
   {
@@ -110,26 +108,27 @@
    "texte": "Les investissements reculent aussi, de 0,9 %, avec une construction en berne.",
    "sequence": {
     "type": "illustration",
-    "image": "illustrations/affaire-25-recession-france/chantier.jpg",
+    "image": "illustrations/affaire-18-smic-rsa/chantier.jpg",
     "titre": "INVESTISSEMENT",
     "legende": "− 0,9 % · la construction en berne",
     "zoom": [
      1,
      1.15
-    ],
-    "prompt": "An abandoned construction site at dusk, an idle tower crane above an unfinished concrete building, empty scaffolding, nobody's face visible, no logos, no text, no letters, no numbers"
+    ]
    }
   },
   {
    "id": "08",
    "texte": "Seule la consommation des ménages tient bon : plus 0,3 %.",
    "sequence": {
-    "type": "secret",
-    "personnage": "aucun",
-    "cadenas": false,
-    "texte": "+ 0,3 %",
-    "taille": 130,
-    "sous": "Consommation des ménages"
+    "type": "illustration",
+    "image": "illustrations/affaire-19-impots/courses.jpg",
+    "titre": "+ 0,3 %",
+    "legende": "La consommation des ménages tient bon",
+    "zoom": [
+     1,
+     1.15
+    ]
    }
   },
   {
@@ -222,14 +221,13 @@
    "texte": "En 1974, le premier choc pétrolier fait flamber le prix de l'essence et met fin aux Trente Glorieuses.",
    "sequence": {
     "type": "illustration",
-    "image": "illustrations/affaire-25-recession-france/petrole.jpg",
+    "image": "illustrations/commun/horloge.jpg",
     "titre": "1974-1975",
     "legende": "Le premier choc pétrolier",
     "zoom": [
      1,
      1.15
-    ],
-    "prompt": "A 1970s gas station at night with old fuel pumps and a long line of vintage cars waiting, a hand-painted closed sign without letters, nobody's face visible, no logos, no text, no letters, no numbers"
+    ]
    }
   },
   {
@@ -237,14 +235,13 @@
    "texte": "En 1980, deuxième choc pétrolier. Puis en 1992, des taux d'intérêt très élevés étouffent l'économie européenne.",
    "sequence": {
     "type": "illustration",
-    "image": "illustrations/affaire-25-recession-france/taux.jpg",
+    "image": "illustrations/commun/banque.jpg",
     "titre": "1980 · 1992-1993",
     "legende": "Pétrole, puis taux d'intérêt",
     "zoom": [
      1,
      1.15
-    ],
-    "prompt": "A heavy iron weight pressing down on a small model of a factory on a desk, vintage 1990s office, dim light, nobody's face visible, no logos, no text, no letters, no numbers"
+    ]
    }
   },
   {
