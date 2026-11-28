@@ -1,0 +1,336 @@
+{
+ "id": "affaire-25-recession-france",
+ "numero": 25,
+ "titre": "La France en récession",
+ "personnage": "La France",
+ "style": "Detailed vintage engraving illustration, fine white and silver ink linework with cross-hatching, subtle warm gold highlights, deep midnight-blue background (#0B1626), dramatic soft light, museum catalogue look. Main subject in the upper half of the frame, empty dark lower third. No text, no letters, no logo, no watermark, not a photograph, no recognizable faces. Vertical 9:16.",
+ "reference": "illustrations/commun/reference.jpg",
+ "photo": {
+  "fichier": "illustrations/affaire-25-recession-france/accroche.jpg",
+  "legende": "Illustration",
+  "credit": "Photos : Lukasz Kobus / Union européenne et jlm2017.fr (CC BY 4.0), via Wikimedia Commons. Illustrations générées par IA (Gemini)."
+ },
+ "publication": {
+  "accroche": "C'est officiel : la France est en récession technique. Les chiffres de l'Insee, les causes, l'alerte lancée dès août par Jean-Luc Mélenchon… et les récessions de 1974, 1980, 1993, 2008 et 2020. 📂 Dossier sourcé",
+  "sources": "Insee (comptes trimestriels, 27 novembre 2026, et 31 juillet 2020) ; AFP via Boursorama et Moneyvox (27 novembre 2026) ; LCP et France Info (30 octobre 2026) ; Keystone-ATS via Bluewin (27 août 2026) ; compte X de Jean-Luc Mélenchon (28 août 2026) ; Comité de datation des cycles de l'économie française (AFSE, 2021).",
+  "hashtags_episode": [
+   "#recession",
+   "#economie",
+   "#france"
+  ],
+  "commentaire_epingle": "📂 Ton avis : 1 = tu sens la crise au quotidien, 2 = pas vraiment 👇 Récession « technique » = deux trimestres de baisse du PIB d'affilée."
+ },
+ "couverture": {
+  "titre": "LA FRANCE EN RÉCESSION",
+  "sous": "Ce que disent les chiffres, et l'histoire",
+  "couleur": true,
+  "photo": "illustrations/affaire-25-recession-france/accroche.jpg"
+ },
+ "lignes": [
+  {
+   "id": "01",
+   "texte": "C'est officiel : la France est en récession.",
+   "sequence": {
+    "type": "accroche",
+    "photo": "illustrations/affaire-25-recession-france/accroche.jpg",
+    "couleur": true,
+    "titre": "LA FRANCE EN RÉCESSION",
+    "sous": "Dossier nº 25 · Insee, 27 novembre 2026",
+    "taille": 80,
+    "prompt": "The Eiffel Tower at dusk seen from below, a giant downward-pointing arrow made of golden light crossing the sky behind it, storm clouds, dramatic and ominous, nobody's face visible, no logos, no text, no letters, no numbers"
+   }
+  },
+  {
+   "id": "02",
+   "texte": "Le 27 novembre, l'Insee a revu ses chiffres : le produit intérieur brut a reculé de 0,2 % au troisième trimestre.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "− 0,2 %",
+    "taille": 130,
+    "sous": "PIB du 3e trimestre 2026 · Insee"
+   }
+  },
+  {
+   "id": "03",
+   "texte": "Et le deuxième trimestre, qu'on croyait stable, est désormais en très léger recul.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-25-recession-france/graphique.jpg",
+    "titre": "RÉVISION",
+    "legende": "Le 2e trimestre passe en léger recul",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "An old paper economic chart pinned on a dark wall, a single line slowly bending downward at the end, a red pencil and an eraser lying below, nobody's face visible, no logos, no text, no letters, no numbers"
+   }
+  },
+  {
+   "id": "04",
+   "texte": "Deux trimestres de baisse d'affilée : c'est la définition d'une récession dite « technique ».",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "RÉCESSION TECHNIQUE",
+    "taille": 88,
+    "sous": "2 trimestres de baisse d'affilée"
+   }
+  },
+  {
+   "id": "05",
+   "texte": "À l'Insee, la responsable des comptes nationaux le reconnaît : « on peut dire qu'on a une récession ». Une récession légère, précise-t-elle.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "« UNE RÉCESSION »",
+    "taille": 84,
+    "sous": "Marie Leclair, Insee · « légère »"
+   }
+  },
+  {
+   "id": "06",
+   "texte": "Premier coupable : les exportations, en chute de 1,6 %, surtout dans l'aéronautique et l'agriculture.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/avion.jpg",
+    "titre": "EXPORTATIONS",
+    "legende": "− 1,6 % · aéronautique et agriculture",
+    "zoom": [
+     1,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "07",
+   "texte": "Les investissements reculent aussi, de 0,9 %, avec une construction en berne.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-25-recession-france/chantier.jpg",
+    "titre": "INVESTISSEMENT",
+    "legende": "− 0,9 % · la construction en berne",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "An abandoned construction site at dusk, an idle tower crane above an unfinished concrete building, empty scaffolding, nobody's face visible, no logos, no text, no letters, no numbers"
+   }
+  },
+  {
+   "id": "08",
+   "texte": "Seule la consommation des ménages tient bon : plus 0,3 %.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "+ 0,3 %",
+    "taille": 130,
+    "sous": "Consommation des ménages"
+   }
+  },
+  {
+   "id": "09",
+   "texte": "Le ministre de l'Économie, Roland Lescure, accuse un choc énergétique lié aux tensions dans le détroit d'Ormuz, les canicules, la sécheresse… et la présidentielle qui approche.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-25-recession-france/lescure.jpg",
+    "titre": "ROLAND LESCURE",
+    "legende": "Ministre de l'Économie",
+    "zoom": [
+     1,
+     1.08
+    ],
+    "trace": false,
+    "mention": "Photo : Lukasz Kobus / Union européenne / Wikimedia Commons, CC BY 4.0",
+    "source": {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Visit_of_Roland_Lescure,_Minister_attached_to_the_French_Minister_for_Economics,_to_the_European_Commission_-_2022_(cropped).jpg?width=1600"
+    },
+    "position": "50% 25%"
+   }
+  },
+  {
+   "id": "10",
+   "texte": "Dès octobre, il prévenait : « l'économie française est à l'arrêt ».",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "« À L'ARRÊT »",
+    "taille": 110,
+    "sous": "Roland Lescure, 30 octobre 2026"
+   }
+  },
+  {
+   "id": "11",
+   "texte": "Mais dès la fin du mois d'août, un candidat à la présidentielle avait lancé l'alerte.",
+   "sequence": {
+    "type": "choc",
+    "photo": "illustrations/commun/journaux.jpg",
+    "texte": "27 AOÛT"
+   }
+  },
+  {
+   "id": "12",
+   "texte": "Le 27 août, face aux patrons réunis par le Medef, Jean-Luc Mélenchon prévient : « Si vous n'augmentez pas les salaires, la France va tomber en récession. »",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-25-recession-france/melenchon.jpg",
+    "titre": "JEAN-LUC MÉLENCHON",
+    "legende": "« La France va tomber en récession »",
+    "zoom": [
+     1,
+     1.08
+    ],
+    "trace": false,
+    "mention": "Photo : jlm2017.fr / Wikimedia Commons, CC BY 4.0",
+    "source": {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mélenchon_2027_-_55261893127.jpg?width=1600"
+    },
+    "position": "50% 25%"
+   }
+  },
+  {
+   "id": "13",
+   "texte": "Le lendemain, il affirme que l'Insee confirme son alerte. Ses rivaux partagent le constat, mais proposent d'autres remèdes : moins de bureaucratie, ou plus d'économies.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "MÊME CONSTAT",
+    "taille": 100,
+    "sous": "Des remèdes opposés"
+   }
+  },
+  {
+   "id": "14",
+   "texte": "Et ce n'est pas la première fois que la France plonge.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "PAS LA PREMIÈRE FOIS",
+    "taille": 84,
+    "sous": "Les récessions françaises depuis 1974"
+   }
+  },
+  {
+   "id": "15",
+   "texte": "En 1974, le premier choc pétrolier fait flamber le prix de l'essence et met fin aux Trente Glorieuses.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-25-recession-france/petrole.jpg",
+    "titre": "1974-1975",
+    "legende": "Le premier choc pétrolier",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A 1970s gas station at night with old fuel pumps and a long line of vintage cars waiting, a hand-painted closed sign without letters, nobody's face visible, no logos, no text, no letters, no numbers"
+   }
+  },
+  {
+   "id": "16",
+   "texte": "En 1980, deuxième choc pétrolier. Puis en 1992, des taux d'intérêt très élevés étouffent l'économie européenne.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/affaire-25-recession-france/taux.jpg",
+    "titre": "1980 · 1992-1993",
+    "legende": "Pétrole, puis taux d'intérêt",
+    "zoom": [
+     1,
+     1.15
+    ],
+    "prompt": "A heavy iron weight pressing down on a small model of a factory on a desk, vintage 1990s office, dim light, nobody's face visible, no logos, no text, no letters, no numbers"
+   }
+  },
+  {
+   "id": "17",
+   "texte": "En 2008, la crise des subprimes, venue des États-Unis, provoque la pire récession depuis la guerre.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/bourse.jpg",
+    "titre": "2008-2009",
+    "legende": "La crise des subprimes",
+    "zoom": [
+     1,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "18",
+   "texte": "Jusqu'au printemps 2020 : avec le confinement, le PIB s'effondre de plus de 13 % en un seul trimestre. Un record.",
+   "sequence": {
+    "type": "compteur",
+    "titre": "PRINTEMPS 2020",
+    "valeur": 13,
+    "decimales": 0,
+    "unite": "%",
+    "legende": "Plus de 13 % de chute en un trimestre · Insee",
+    "fin": 0.55
+   }
+  },
+  {
+   "id": "19",
+   "texte": "Cette fois, la baisse est bien plus faible. Mais elle tombe mal : l'État doit réduire un déficit de 5,4 %.",
+   "sequence": {
+    "type": "illustration",
+    "image": "illustrations/commun/billets.jpg",
+    "titre": "LE DÉFICIT",
+    "legende": "5,4 % du PIB en 2026",
+    "zoom": [
+     1,
+     1.15
+    ]
+   }
+  },
+  {
+   "id": "20",
+   "texte": "Le gouvernement visait 0,5 % de croissance cette année. Il faudrait 1,4 % au dernier trimestre : improbable, selon l'Insee.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "OBJECTIF RATÉ ?",
+    "taille": 90,
+    "sous": "0,5 % visé · 0,1 % acquis à fin septembre"
+   }
+  },
+  {
+   "id": "21",
+   "texte": "Seule bonne nouvelle : l'inflation ralentit, à 2,9 % sur un an en novembre.",
+   "sequence": {
+    "type": "secret",
+    "personnage": "aucun",
+    "cadenas": false,
+    "texte": "INFLATION : 2,9 %",
+    "taille": 100,
+    "sous": "Novembre 2026 · en baisse"
+   }
+  },
+  {
+   "id": "22",
+   "texte": "Récession légère ou début d'une crise ? Réponse au prochain trimestre.",
+   "sequence": {
+    "type": "fin",
+    "etiquette": [
+     "DOSSIER Nº 25",
+     "FRANCE · RÉCESSION"
+    ],
+    "texte": "À SUIVRE"
+   }
+  },
+  {
+   "id": "23",
+   "texte": "Et toi ? Réponds 1 : tu sens la crise au quotidien. Ou 2 : pas vraiment. Et abonne-toi pour la suite.",
+   "sequence": {
+    "type": "cta",
+    "bulle": "1 ou 2 ? 👇"
+   }
+  }
+ ]
+}
